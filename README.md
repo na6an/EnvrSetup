@@ -7,3 +7,12 @@
 4. `sudo apt install -y build-essential`  
 Windows directory can be found in /mnt
 
+## Killer Wireless/Bluetooth Setup (Ubuntu)
+ath10k
+AC-1535
+wget http://mirrors.kernel.org/ubuntu/pool/main/l/linux-firmware/linux-firmware_1.169.3_all.deb  
+sudo dpkg -i linux-firmware*.deb  
+sudo modprobe -r ath10k_pci && sudo modprobe ath10k_pci
+git clone git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/ath.git
+
+https://github.com/erikarn/alx
