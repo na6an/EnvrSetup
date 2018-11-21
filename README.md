@@ -1,5 +1,13 @@
 # EnvrSetup
 
+
+## VirtualBox Setup
+Shared folder between host and vm  
+https://askubuntu.com/questions/22743/how-do-i-install-guest-additions-in-a-virtualbox-vm  
+https://stackoverflow.com/questions/26740113/virtualbox-shared-folder-permissions
+
+
+
 ## Basic C/C++ Dev Environment Setup (Windows) without IDE
 1. Install ubuntu bash from Microsoft Store
 2. `sudo apt update`
